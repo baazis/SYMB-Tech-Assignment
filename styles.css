@@ -13,7 +13,7 @@ body {
 }
 
 .headerimg {
-    background: url(../img/background_header.jpeg) no-repeat center top;
+    background: url(img/background_header.jpeg) no-repeat center top;
 	padding-top: 30px;
     background-size: cover;
 	background-position: center center;
@@ -111,7 +111,7 @@ hr-dashed {
 
 /* part 3 */
 .part3 {
-	background: url(../img/background_centre1.jpeg) no-repeat center top;
+	background: url(img/background_centre1.jpeg) no-repeat center top;
 	padding-top:100px;
 	text-align:center;
 	background-attachment: relative;
