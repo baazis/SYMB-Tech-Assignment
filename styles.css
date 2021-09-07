@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family:'Ruda', sans-serif ;
+  }
+
+  /* some font family found using My font app are "Monda", "Ruda", etc, */
+body {
+    background-color: #f2f2f2;
+    font-weight: 450;
+    font-size: 15px;
+    color: #555;
+
+}
+
+.headerimg {
+    background: url(../img/background_header.jpeg) no-repeat center top;
+	padding-top: 30px;
+    background-size: cover;
+	background-position: center center;
+	min-height: 460px;
+	width: 100%;
+    
+}
+  
+.headerimg h1 {
+	margin-top: 60px;
+    font-weight: 850;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 45px;
+	
+	
+}
+.centered {
+    text-align: center;
+}
+.buttonx {
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: transparent;
+    border-color: #ffffff;
+    letter-spacing: 2px;
+  }
+
+  .hpn {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+h1, h2, h6 {
+    font-weight: 800;
+    color: rgb(34, 28, 28);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+
+  .happenings::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-items: center;
+  }
+
+
+  p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.word p {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.word p.para {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 400;
+    
+}
+
+.word p.calendar {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px;
+	color: #817f7f;
+	text-align: right;
+}
+
+.word p.calendar > i {
+	font-size: 14px;
+}
+
+/* dashed line */
+hr-dashed {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed rgb(173, 171, 171);
+    margin: 1em 0;
+   
+}
+
+/* part 3 */
+.part3 {
+	background: url(../img/background_centre1.jpeg) no-repeat center top;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 370px;
+	width: 100%;
+    background-size: cover;
+}
+.part3 h2{
+    margin-top: 30px;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	visibility: visible;
+}
+
+/* check profile  button */
+.buttonx2 {
+    color: #ffffff;
+    padding: 12px;
+    background-color: #449e9e;
+    border-color: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+/* Footer css */
+  #footer {
+	margin-top: 0px;
+	background-color: #2f2f2f;
+	min-height: 300px;
+	width: 100%;
+}
+#footer h1 {
+	color: white;
+	font-size: 30px;
+}
+#footer p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
